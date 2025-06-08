@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, resultado;
+
+    
+    printf("Digite o valor de A: ");
+    scanf("%d", &A);
+
+    printf("Digite o valor de B: ");
+    scanf("%d", &B);
+
+    
+    resultado = (A * A) + (B * B);
+
+    
+    printf("A soma do quadrado de cada valor lido: %d\n", resultado);
+
+    return 0;
+}
